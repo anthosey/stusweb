@@ -1,0 +1,180 @@
+.navbar-inverse.head{
+	background-color:#fff; border:none; padding:0;  border-radius:0px; margin:0;
+}
+
+
+.navbar-inverse.head a{
+	color:#FE6800;
+	
+}
+
+#myNavbar a {
+    color: #FFF;
+    margin-right: 2px;
+    font-weight: bold;
+    background-color: #59b97c;
+    /*background : url(../images/used/back_line_orange.jpg) repeat-x;*/
+    border-radius: 2px;
+    padding: 15px;
+}
+
+#myNavbar a:hover{
+color:#D6D8DA;
+background-color:#3d8d77;
+}
+
+.activemain{
+color:#D6D8DA;
+background-color:#3d8d77;
+}
+
+#myNavbar.active {
+    background-color :#3d8d77;
+}
+
+#myNavbar ul{
+padding-top:0px;
+}
+
+.logowing{
+	height:73px; padding:0px; vertical-align:bottom;
+}
+
+
+.loginLabel{
+	color:#fff;
+	font-weight:bold;
+}
+
+.loginlink{
+	color:yellow;
+	font-weight:bold;
+	background-color:;
+	
+}
+.btn-success.width{
+	width:100%;
+}
+
+
+.padP{
+	text-align:justify;
+}
+.footerlinks{
+	 color:#919191;
+}
+
+.summary{
+	border-radius:3px;
+	background-color:#f1f1f1;
+	padding:10px;
+	text-align:justify;
+}
+
+.morepadup{
+	padding-top:10px;
+}
+
+.morepaddown{
+	padding-bottom:10px;
+}
+
+.modulehead{
+	height:40px;
+	background-color:;
+	color:#000;
+	
+}
+
+.arange{
+    float:left;
+}
+
+.error{
+    color:red;
+    font-weight :bold;
+}
+
+.success{
+    color:blue;
+    font-weight :bold;
+}
+.welcome{
+    color:#000;
+    font-weight :normal ;
+    font-size :26px;
+}
+
+
+@media (max-width: 768px){
+.loginLabel{
+	color:#000;
+	font-weight:bold;
+}
+
+
+}
+
+#progressBackgroundFilter {
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+    background-color:#000;
+    filter:alpha(opacity=50);
+    opacity:0.5;
+    z-index:1000;
+}
+#processMessage {
+    position:fixed;
+    top:30%;
+    left:43%;
+    padding:10px;
+    width:14%;
+    z-index:1001;
+    background-color:#fff;
+    border:solid 1px #000;
+    color :#000;
+} 
+
+
+.gridSelected
+{
+    font-family :Tahoma;
+    font-weight :bold ;
+    border-style :solid;
+    border-color:#f1f1f1;
+    background-color :Orange;
+    }                   
+
+.gridFooter
+{
+    font-weight :bold ;
+    font-size :large ;
+}   
+.gridPaging
+{   
+    font-family :Verdana,tahoma;
+    font-weight :bold ;
+   }         
+
+
+.gridPaging table td
+{
+    padding :20px;
+    
+    font-weight :bold ;
+}
+
+.gridPaging table td table td:active
+{
+   background :Blue;
+   
+}         
+
+.footercontent{
+	color:#e9781A;
+}

@@ -1,0 +1,266 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/mystyle.css">
+    <link rel="stylesheet" href="styles/mycss.css">
+
+    <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    -->
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="jquery/jquery-1.9.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <title>Standard Union Securities Limited</title>
+
+    <style>
+        a:hover {
+            color: orange;
+        }
+    </style>
+</head>
+<body style="padding:0px; margin:0px; font-family:Arial, Verdana;background-color:#fff;">
+<form id ="form1" runat ="server" >
+
+
+
+
+    <!-- Logo wing-->
+    <!--
+    <div class ="logowing" >
+    <div class="container">
+      <div class="rows">
+      <div class ="col-md-12" >
+
+      </div>
+      </div>
+      </div>
+    </div>
+    -->
+
+    <div style=" height:5px;">
+	</div>
+    <!--Nav bar -->
+    <nav class="navbar navbar-inverse head">
+        <div class="container">
+            <div class="rows">
+                <!--Logo Starts here-->
+                <!--<div class="col-md-3 logo">
+                </div> -->
+                <!--End of logo-->
+
+                <div class="col-md-3">
+                    <a href="Default.aspx"><img src="images\used\logo.jpg" style=" padding:0; margin:0;" class="img-responsive" /></a>
+                </div>
+                <div class="col-md-9">
+                    <!--Menu only-->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:#e9781A; color:#e9781A;">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--<a id ="mTitle" class="navbar-brand" href="Default.aspx"><strong>Smart Jobs</strong></a>-->
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+
+                            <li class="active"><a href="../Default.aspx">HOME</a></li>
+                            <li><a href="aboutus.html">ABOUT US</a></li>
+                            <li><a href="Edit_sign.asp">SIGN UP</a></li>
+                            <li><a href="products.html" >PRODUCTS</a></li>
+                            <li><a href="downloads.html" >DOWNLOADS</a></li>                        
+                            <li><a href="contactus.aspx">CONTACT</a></li>
+                            <li><a href="http://www.standardunionetrade.com/login.aspx?ReturnUrl=%2f" target ="_blank"  ID="butLogin">Login</a></li>
+                            
+                            
+                        </ul>
+                        <!--
+                        <ul class="nav navbar-nav navbar-right">
+
+
+                          <!--<li><a href="contactus.aspx"><span class="glyphicon glyphicon-request"></span> Request a pickup</a></li>
+                          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li><li><asp:LinkButton ID="butMyAC" runat="server">My/Acct</asp:LinkButton></li>
+                        </ul>-->
+                    </div>
+                </div>
+            </div> <!-- close of rows-->
+        </div>
+    </nav>
+
+    <!-- End of nav bar -->
+
+<body>
+  <div class="container" style="pading 20px; background-color:#f1f1f1; padding: 60px;"> <!--begining of a container-->
+<div style="text-align: center">
+
+</div>
+
+ <div class="rows"> <!--begining of the main row-->
+<form action="/action_page.php" autocomplete="on">
+<div class="col-md-6">
+
+     <h2>EMPLOYMENT DETAILS:</h2>  
+<div class="form-group" style="font-size:16px;">NAME OF EMPLOYER(Or if self employed):
+<input class="form-control" type="text" name="fname" size="40">
+</div>
+<div class="form-group" style="font-size:16px;">EMPLOYER's ADDRESS:
+<input class="form-control" type="text" name="fname" size="40">
+</div>
+<div class="form-group" style="font-size:16px;">OCCUPATION:
+<input class="form-control" type="text" name="fname" size="40">
+</div>
+
+<h2>BANK ACCOUNT DETAILS</h2>
+<div class="form-group" style="font-size:16px;">BANK ACCOUNT NAME:
+<input class="form-control" type="text" name="fname" size="40">
+</div>
+<div class="form-group" style="font-size:16px;">BANK INSTITUTION:
+<input class="form-control" type="text" name="fname" size="40">	  
+</div>
+<div class="form-group" style="font-size:16px;">BANK BRANCH:
+<input class="form-control" type="text" name="fname" size="40">
+</div>
+<div class="form-group" style="font-size:16px;">ACCOUNT NUMBER:
+<input class="form-control" type="text" name="fname" size="40">
+</div>
+<div class="form-group" style="font-size:16px;">DATE OF BANK ACCOUNT CREATION:
+<input class="form-control" type="text" name="fname" size="40">
+</div>
+<div class="form-group" style="font-size:16px;">BANK SORT CODE:
+<input class="form-control" type="text" name="fname" size="40">
+</div>
+ <div class="form-group" style="font-size:16px;">BVN:
+ <input class="form-control" type="text" name="fname" size="40">
+ </div>
+ 
+</div>
+<div class="col-md-6">
+<h2>KYC ("KNOW YOUR CUSTOMER")</h2>
+
+<h4>Standard Union Securities Limited is required by law to establish the identity and confirm the address of every prospective client.</h4>
+
+<p>Proof of identification- Please provide any of the following:</p>
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Please select the relevant box.
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Current International Passport:</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Current Driver's license:</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Permanent Voters Card:</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">National Identity Card:</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Residence Permit (For Non Nigeria):</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Inland Revenue Tax Certificate:</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Birth Certificate / Sworn:</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Declaration of age</a></li>
+    </ul>
+  </div>
+
+<h4>Address Confirmation- Please provide any one of the following</h4>
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Please select the relevant box.
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Bank Statement</a></li>
+      <li><a href="#">Record of Home Visit</a></li>
+      <li><a href="#">Utility Bill</a></li>
+      <li><a href="#">Tenancy Agreement</a></li>
+      <li><a href="#">Solicitor's Letter</a></li>
+    </ul>
+  </div>
+  <h2>CONTACT DETAILS:</h2>
+<p>We may contact you by telephone to verify your details or discuss your trade instruction which may be time and price sensitive. For this reason, please
+<br>provide us with your mobile number and one alternative contact number.</p>
+<p>It is very important that we have your email address as we will use this to send you information such as:</p>
+<ul>
+           <li>Trade confirmation</li>
+              <li>CsCs Statements</li>
+                <li>Any other important notifications</li> 
+                  
+     </ul>
+	 <p>Please note that failure to provide an email address may limit our ability to provide you with the above.</p>
+</div>
+ </div> <!-- Close of main rows-->
+</form>
+
+	 </div>  <!--
+                   </div> <!-- Close of main rows-->
+           </form>
+  
+  </div>  <!--End of the main container -->
+  </form> 
+  </body>
+   
+    <div style="height:20px;"></div> <!--Space-->
+
+    <div class="footer big">
+        <!-- Footer begins here-->
+        <div class="container">
+
+            <div class="col-md-9">
+                <h2 style="color:#E1E1E1;">More about our services</h2>
+                <p class="footerlinks padP">
+                    Our staff members are specially trained to monitor events in the market place in order to make accurate investments decisions that are highly profitable to our numerous clients. We assist our clients to monitor their investments especially the high net-worth individuals and those Nigerians in Diaspora who are time constrained. This is done by creating a NOMINEE ACCOUNTS for them.
+
+
+                    <br /><br />In Standard Union Securities Limited, clients are given arrays of investment options from which to choose. Our investment principle allows the clients to have either the discretionary or non-discretionary power to decide what stocks to buy or sell on his/her behalf. Some of the options include but not limited to : Fixed Term Investments, Capital Market Investments, Government Debt Instruments, Real Estate Investments.
+                </p>
+
+            </div>
+
+            <div class="col-md-3">
+                
+                <!--<h2 style="color:#E1E1E1;">Business Links</h2>
+                <div style="height:7px;"></div>
+                <a href="http://vikotravel.com.ng" target="_parent" class="footerlinks">www.vikotravel.com.ng</a>
+                <a href="http://consolidatedalliance.ng" target="_parent" class="footerlinks">www.consolidatedalliance.ng</a>
+
+                <a href="http://wwww.bustime.com.ng" target="_parent" class="footerlinks">www.bustime.com.ng</a>
+
+                <a href="http://www.flightstime.com.ng" target="_parent" class="footerlinks">www.flightstime.com.ng</a>
+                <a href="http://vikonigeria.com" target="_parent" class="footerlinks">www.vikonigeria.com</a>
+                -->
+
+                <h2 style="color:#E1E1E1;">Contact</h2>
+                <br />
+                <p style=" font-weight:bold;" class="footerlinks">Telephone : +234 818 128 3000</p>
+                <p style="font-weight:bold;" class="footerlinks">Email: info@standardun.com</p>
+                <p style="color:#DA251C; font-weight:bold;">Social media</p>
+                <a href="http://www.facebook.com/viko-sme-1660949797494538" target ="_blank" >
+                    <img src="img/1920/facebook.png" alt="facebook" style="padding-left:0px;"></img><a>
+                        <a href="http://www.twitter.com/vikosme" target ="_blank" >
+                            <img src="img/1920/twitter.png" alt="Twitter" style="padding-left:0px;"></img><a>
+                      <!--          <a href="http://www.instagram.com/vikosme" target ="_blank" >
+                                    <img src="img/1920/instagram.png" alt="Instagram" style="padding-left:0px;"></img><a>
+                                        <a href="https://www.youtube.com/results?search_query=viko+sme" target ="_blank" ><img src="img/1920/youtube.jpg" alt="YouTube" style="padding-left:0px;"></img><a>
+                                            -->
+                <hr />
+                <a href="aboutus.html" class="footerlinks">aboutus</a> <span class="footerlinks">| </span><a href="signup.aspx" class="footerlinks">signup</a> <span class="footerlinks">| </span> <a href="testing.aspx" class="footerlinks">Learn</a> <span class="footerlinks">| </span> <a href="http://mail.standardun.com" target ="_blank"  class="footerlinks">Webmail</a>
+
+            </div>
+
+            
+
+
+            <div class="col-md-12" style=" color :White; text-align :center; font-size :small ;"><span style=" color :#fff;">By using this website, you have agreed to our</span> <a href="terms.html" target ="_blank" >Terms</a><span style=" color :#fff;"> of service</span></div>
+        </div>
+        <div class="container">
+            <div style=" height:30px; background-color:#5f5f5f; border-radius:3px;">
+                <div class="col-md-2"></div>
+                <div class="col-md-4"><div style="text-align:center; color:#fff; padding-top:10px;">Copyright © 2016 Standard Union Securities Limited. </div></div>
+                <div class="col-md-4"><div style="text-align:center; color:#fff; padding-top:10px;" class="footerlinks">Built by <a class="footerlinks" href="http://www.photizotechnologies.com"> Photizotechnologies.com</a></div></div>
+                <div class="col-md-2"></div>
+
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

