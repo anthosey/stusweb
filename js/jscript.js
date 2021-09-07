@@ -6,7 +6,7 @@ function show1(){
     document.getElementById('but5').className="normalBut";
     document.getElementById('but6').className="normalBut";
     
-    document.getElementById('cont1').style="display: block; padding: 5%; text-align: justify; ";
+    document.getElementById('cont1').style="display: block; padding: 5%; text-align: justify; background-color:#b5d8c2; color: #000; border-radius: 2%; ";
     document.getElementById('cont2').style="display: none";
     document.getElementById('cont3').style="display: none";
     document.getElementById('cont4').style="display: none";
@@ -53,7 +53,7 @@ function show4(){
     document.getElementById('but3').className="normalBut";
     document.getElementById('but4').className="activeBut";
     document.getElementById('but5').className="normalBut";
-    document.getElementById('but6').className="activeBut";
+    document.getElementById('but6').className="normalBut";
 
     document.getElementById('cont1').style="display: none";
     document.getElementById('cont2').style="display: none";

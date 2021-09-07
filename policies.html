@@ -38,6 +38,10 @@
             font-weight: bold;
             text-transform: uppercase;
         }
+        .displayDiv {
+            display: none; padding:5%; text-align: justify;
+            background-color:#b5d8c2; color: #000; border-radius: 2%;
+        }
 
     </style>
 </head>
@@ -110,7 +114,7 @@
     <div style="height:20px; float: left;"></div> <!--Space-->
 
     <div style="padding: 2%;">
-    <div id="cont1" style="padding:5%; text-align: justify;">
+    <div id="cont1" style="padding:5%; text-align: justify; background-color:#b5d8c2; color: #000; border-radius: 2%;">
             <div class="heading"> BEST EXECUTION POLICY STATEMENT</div><br />
             <p>
             Standard Union Securities Limited cares about best execution, we must take all sufficient steps to
@@ -140,10 +144,10 @@
             </div>
             
             
-    <div id="cont2" style="display: none; padding:5%; text-align: justify;">
+    <div id="cont2" class="displayDiv">
                 
                 <div class="heading"> COMPLAINTS MANAGEMENT POLICY</div><br />
-                    <strong>OVERVIEW</strong> <br /><br />
+                    <p class="subHead">OVERVIEW</p> <br />
                     <p>
                     At Standard Union Securities Limited we strive to personally and professionally demonstrate certain values in
                     our actions. We are disciplined and reliable and engender trust and integrity. We appreciate that on occasions
@@ -152,8 +156,7 @@
                     courteous resolution.
                 </p>
 
-                <p>
-                    THE COMPLAINT HANDLING PROCESS
+                <p class="subHead"> THE COMPLAINT HANDLING PROCESS
                 </p>
                 <p>    
                 Complaints may be made in person, by phone, email or in writing. The client service units will receive the
@@ -184,35 +187,20 @@
                     Where customer complaints have been received by the regulators and forwarded to the company for
                     resolution, the compliance officer shall acknowledge receipt of the complaint in writing. On resolution of the
                     complaint, a copy of the response shall be forwarded to the regulators by the compliance officer.
-                    The complaint register should be reviewed by the Managing Director on a daily basis and must detail the 
+                    The complaint register should be reviewed by the Managing Director on a daily basis and must detail the following:
                 </p>    
-                <p>
-                    following:
-                </p>
-                <p>
-                    Date of complaint
-                </p>
-                <p>    
-                Name of complaint
-                </p>   
-                <p>
-                Form/Nature of complaints
-                </p>   
-                <p>
-                Expected Resolution date
-                </p>    
-                <p>
-                Details of review officer (name and department) as assigned by the Managing Director
-                </p>    
-                <p>
-                Concerned units
-                </p>
-                <p>
-                    Actual date of resolution
-                </p>
-                <p>
-                    Complaint status whether active or close
-                </p>
+                <ul>
+                    <li>Date of complaint</li>
+                    <li>Name of complaint</li>
+                    <li>Form/Nature of complaints</li>
+                    <li>Expected Resolution date</li>
+                    <li>Details of review officer (name and department) as assigned by the Managing Director</li>
+                    <li>Concerned units</li>
+                    <li>Actual date of resolution</li>
+                    <li>Complaint status whether active or close</li>
+                </ul>
+                    
+            
                 <p>
                     Where clients are dissatisfied with the resolution of a complaint, they have the right to pursue such complaint
                     until it is resolved to their satisfaction. Such case will then be re-opened and efforts will be put in place to
@@ -225,13 +213,15 @@
                     Protect the rights of officers where they are the subject of a complaint.
                     Deal with complaints confidentially to the extent possible.
                     Ensure that all available information/evidence has been collected from both sides.
-                    If you require additional information please contact us on office@standardun.com or call us on 8033012039,
+                </p>
+                    
+                <p>If you require additional information please contact us on office@standardun.com or call us on 8033012039,
                     08181283000
                 </p>
 
     </div>
             
-            <div id="cont3" style="display: none; padding:5%; text-align: justify;">
+            <div id="cont3" class="displayDiv">
                 <div class="heading"> DATA PRIVACY POLICY</div>
     
                 DATA PROTECTION AND PRIVACY POLICY <br />
@@ -772,7 +762,7 @@
 
 </div>
         
-        <div id="cont4" style="display: none; padding:5%; text-align: justify;">
+        <div id="cont4" class="displayDiv">
             <div class="heading"> STUS DATA BREACH POLICY</div>
  
 <p class="subHead">Introduction</p>
@@ -783,7 +773,7 @@ Every care is taken to protect personal data from incidents (either accidentally
  
 Compromise of information, confidentiality, integrity, or availability may result in harm to individual(s), reputational damage, detrimental effect on service provision, legislative non-compliance, and/or financial costs.
 </p>
-
+<br />
 <p class="subHead">Purpose and Scope</p>
  
 <p>Standard Union Securities Limited is obliged under Data Protection legislation to have in place an institutional framework designed to ensure the security of all personal data during its life cycle, including clear lines of responsibility.
@@ -796,232 +786,303 @@ This policy applies to all employee of Standard Union Securities Limited. This i
  
 The objective of this policy is to contain any breaches, to minimise the risk associated with the breach and consider what action is necessary to secure personal data and prevent further breaches.
 </p> 
- 
+<br /> 
  
  
 <p class="subHead">Definitions / Types of breach</p>
  
-•	For the purpose of this policy, data security breaches include both confirmed and suspected incidents.
+For the purpose of this policy, data security breaches include both confirmed and suspected incidents.
  
-•	An incident in the context of this policy is an event or action which may compromise the confidentiality, integrity or availability of systems or data, either accidentally or deliberately, and has caused or has the potential to cause damage to the Standard Union Securities Limited information assets and / or reputation.
+An incident in the context of this policy is an event or action which may compromise the confidentiality, integrity or availability of systems or data, either accidentally or deliberately, and has caused or has the potential to cause damage to the Standard Union Securities Limited information assets and / or reputation.
 
-•	An incident includes but is not restricted to, the following:
+An incident includes but is not restricted to, the following:
  
-•	loss or theft of confidential or sensitive data or equipment on which such data is stored (e.g. loss of laptop, USB stick, iPad / tablet device, or paper record);
-•	equipment theft or failure;
-•	system failure;
-•	unauthorised use of, access to or modification of data or information systems;
-•	attempts (failed or successful) to gain unauthorised access to information or IT system(s);
-•	unauthorised disclosure of sensitive / confidential data;
-•	website defacement;
-•	hacking attack;
-•	unforeseen circumstances such as a fire or flood;
-•	human error;
-•	‘blagging’ offences where information is obtained by deceiving the organisation who holds it.
- 
+<ul>
+    <li>loss or theft of confidential or sensitive data or equipment on which such data is stored (e.g. loss of laptop, USB stick, iPad / tablet device, or paper record);
+        equipment theft or failure; system failure; unauthorised use of, access to or modification of data or information systems;</li>
+    <li>attempts (failed or successful) to gain unauthorised access to information or IT system(s);</li>
+    <li>unauthorised disclosure of sensitive / confidential data;</li>
+    <li>website defacement;</li>
+    <li>hacking attack;</li>
+    <li>unforeseen circumstances such as a fire or flood;</li>
+    <li>human error;</li>
+    <li>‘blagging’ offences where information is obtained by deceiving the organisation who holds it.</li>
+</ul>
+
+ <br />
  
 <p class="subHead">	Reporting an incident</p>
  
-Any individual who accesses, uses or manages Standard Union Securities Limited
+<p>Any individual who accesses, uses or manages Standard Union Securities Limited
 information is responsible for reporting data breach and information
-security incidents immediately to the Data Protection Officer via dpo@standardun.com
+security incidents immediately to the Data Protection Officer via dpo@standardun.com</p>
  
-•	If the breach occurs or is discovered outside normal working hours, it must be reported as soon as is practicable.
+<p>If the breach occurs or is discovered outside normal working hours, it must be reported as soon as is practicable.
+ The report must include full and accurate details of the incident, when the breach occurred (dates and times), who is reporting it, if the data relates to people, the nature of the information, and how many individuals are involved. An Incident Report Form should be completed as part of the reporting process (refer to [The data Breach report form]).
+</p>
  
-•	The report must include full and accurate details of the incident, when the breach occurred (dates and times), who is reporting it, if the data relates to people, the nature of the information, and how many individuals are involved. An Incident Report Form should be completed as part of the reporting process (refer to [The data Breach report form]).
- 
+<br />
+
 <p class="subHead">Containment and recovery</p>
  
-•	The Data Protection Officer (DPO) will first determine if the breach is still occurring. If so, the appropriate steps will be taken immediately to minimise the effect of the breach.
- 
-•	An initial assessment will be made by the DPO in liaison with relevant officer(s) to establish the severity of the breach and who will take the lead investigating the breach, as the Lead Investigation Officer (this will depend on the nature of the breach; in some cases it could be the DPO).
- 
-•	The Data Protection Officer will establish whether there is anything that can be done to recover any losses and limit the damage the breach could cause.
- 
-•	The Data Protection Officer will establish who may need to be notified as part of the initial containment and will inform the police, where appropriate.
-  
-•	The Data Protection Officer, in liaison with the relevant officer(s) will determine the suitable course of action to be taken to ensure a resolution to the incident.
-  
-•	Investigation and risk assessment
- 
-•	An investigation will be undertaken by the DPO with the Head of Information Technology / Head Internal Control department immediately and wherever possible, within 24 hours of the breach being discovered / reported.
- 
-•	The DPO with the Head of Information Technology / Head of Internal Control department will investigate the breach and assess the risks associated with it, for example, the potential adverse consequences for individuals, how serious or substantial those are and how likely they are to occur.
- 
-•	The investigation will need to take into account the following:
-o	the type of data involved;
-o	its sensitivity;
-o	the protections in place (e.g. encryptions);
-o	what has happened to the data (e.g. has it been lost or stolen;
-o	whether the data could be put to any illegal or inappropriate use;
-o	data subject(s) affected by the breach, number of individuals involved and the potential effects on those data subject(s);
-o	whether there are wider consequences to the breach.
+<ol>
+    <li>The Data Protection Officer (DPO) will first determine if the breach is still occurring. If so, the appropriate steps will be taken immediately to minimise the effect of the breach.</li>
+    <li>An initial assessment will be made by the DPO in liaison with relevant officer(s) to establish the severity of the breach and who will take the lead investigating the breach, as the Lead Investigation Officer (this will depend on the nature of the breach; in some cases it could be the DPO).</li>
+    <li>The Data Protection Officer will establish whether there is anything that can be done to recover any losses and limit the damage the breach could cause.</li>
+    <li>The Data Protection Officer will establish who may need to be notified as part of the initial containment and will inform the police, where appropriate.</li>
+    <li>The Data Protection Officer, in liaison with the relevant officer(s) will determine the suitable course of action to be taken to ensure a resolution to the incident.</li>
+    <li>Investigation and risk assessment</li>
+    <li>An investigation will be undertaken by the DPO with the Head of Information Technology / Head Internal Control department immediately and wherever possible, within 24 hours of the breach being discovered / reported.</li>
+    <li>The DPO with the Head of Information Technology / Head of Internal Control department will investigate the breach and assess the risks associated with it, for example, the potential adverse consequences for individuals, how serious or substantial those are and how likely they are to occur.</li>
+    <li>The investigation will need to take into account the following:
+        <ul>
+            <li>the type of data involved;</li>
+            <li>its sensitivity;</li>
+            <li>the protections in place (e.g. encryptions);</li>
+            <li>what has happened to the data (e.g. has it been lost or stolen;</li>
+            <li>whether the data could be put to any illegal or inappropriate use;</li>
+            <li>data subject(s) affected by the breach, number of individuals involved and the potential effects on those data subject(s);</li>
+            <li>whether there are wider consequences to the breach.</li>
+        </ul>
+    </li>
+</ol>
+
+<br />
 
 <p class="subHead">	Notification</p>
  
-•	The DPO with the Head of Information Technology / Head of Internal Control department, in consultation with relevant colleagues will establish whether the Authority will need to be notified of the breach, and if so, notify them within 72 hours of becoming aware of the breach, where feasible.
-•	Every incident will be assessed on a case by case basis; however, the following will need to be considered:
-o	whether the breach is likely to result in a high risk of adversely affecting individuals’ rights and freedoms under Data Protection legislation;
-o	whether notification would assist the individual(s) affected (e.g. could they act on the information to mitigate risks?);
-o	whether notification would help prevent the unauthorised or unlawful use of personal data;
-o	whether there are any legal / contractual notification requirements;
-o	the dangers of over notifying. Not every incident warrants notification and over notification may cause disproportionate enquiries and work.
+ <p>The DPO with the Head of Information Technology / Head of Internal Control department, in consultation with relevant colleagues will establish whether the Authority will need to be notified of the breach, and if so, notify them within 72 hours of becoming aware of the breach, where feasible.
+Every incident will be assessed on a case by case basis; however, the following will need to be considered:</p>
 
-•	Individuals whose personal data has been affected by the incident, and where it has been considered likely to result in a high risk of adversely affecting that individual’s rights and freedoms, will be informed without undue delay. Notification will include a description of how and when the breach occurred and the data involved. Specific and clear advice will be given on what they can do to protect themselves, and include what action has already been taken to mitigate the risks. Individuals will also be provided with a way in which they can contact Standard Union Securities Limited for further information or to ask questions on what has occurred.
+<ul>
+    <li>whether the breach is likely to result in a high risk of adversely affecting individuals’ rights and freedoms under Data Protection legislation;</li>
+    <li>whether notification would assist the individual(s) affected (e.g. could they act on the information to mitigate risks?);</li>
+    <li>whether notification would help prevent the unauthorised or unlawful use of personal data;</li>
+    <li>whether there are any legal / contractual notification requirements;</li>
+    <li>the dangers of over notifying. Not every incident warrants notification and over notification may cause disproportionate enquiries and work.</li>
+</ul>
 
-The Data Protection Officer must consider notifying third parties such as the police, insurers, banks or credit card companies. This would be appropriate where illegal activity is known or is believed to have occurred, or where there is a risk that illegal activity might occur in the future.
+<p>Individuals whose personal data has been affected by the incident, and where it has been considered likely to result in a high risk of adversely affecting that individual’s rights and freedoms, will be informed without undue delay. Notification will include a description of how and when the breach occurred and the data involved. Specific and clear advice will be given on what they can do to protect themselves, and include what action has already been taken to mitigate the risks. Individuals will also be provided with a way in which they can contact Standard Union Securities Limited for further information or to ask questions on what has occurred.</p>
+
+<p>The Data Protection Officer must consider notifying third parties such as the police, insurers, banks or credit card companies. This would be appropriate where illegal activity is known or is believed to have occurred, or where there is a risk that illegal activity might occur in the future.</p>
   
-•	A record will be kept of any personal data breach, regardless of whether notification was required.
+<p>A record will be kept of any personal data breach, regardless of whether notification was required.</p>
 
+<br />
 
 <p class="subHead">	Evaluation and response</p>
  
-•	Once the initial incident is contained, the DPO will carry out a full review of the causes of the breach; the effectiveness of the response(s) and whether any changes to systems, policies and procedures should be undertaken.
-•	Existing controls will be reviewed to determine their adequacy, and whether any corrective action should be taken to minimise the risk of similar incidents occurring.
+<p>Once the initial incident is contained, the DPO will carry out a full review of the causes of the breach; the effectiveness of the response(s) and whether any changes to systems, policies and procedures should be undertaken.
+Existing controls will be reviewed to determine their adequacy, and whether any corrective action should be taken to minimise the risk of similar incidents occurring.
  
-•	The review will consider:
-o	where and how personal data is held and where and how it is stored;
-o	where the biggest risks lie including identifying potential weak points within existing security measures;
-o	whether methods of transmission are secure; sharing minimum amount of data necessary;
-o	staff awareness;
-o	implementing a data breach plan and identifying a group of individuals responsible for reacting to reported breaches of security.
-•	If deemed necessary, a report recommending any changes to systems, policies and procedures will be considered by Standard Union Securities Limited.
+The review will consider:</p>
+<ul>
+    <li>where and how personal data is held and where and how it is stored;</li>
+    <li>where the biggest risks lie including identifying potential weak points within existing security measures;</li>
+    <li>whether methods of transmission are secure; sharing minimum amount of data necessary;</li>
+    <li>staff awareness;</li>
+    <li>implementing a data breach plan and identifying a group of individuals responsible for reacting to reported breaches of security.</li>
+</ul>
+<p>If deemed necessary, a report recommending any changes to systems, policies and procedures will be considered by Standard Union Securities Limited.</p>
  
-<p class="subHead">	Policy Review</p>
-•	This policy will be updated as necessary to reflect best practice and to ensure compliance with any changes or amendments to relevant legislation.
 
-THIS POLICY WAS REVIEWED IN FEBRUARY 2020.
+<p class="subHead">	Policy Review</p>
+<p>This policy will be updated as necessary to reflect best practice and to ensure compliance with any changes or amendments to relevant legislation.</p>
+
+<p>THIS POLICY WAS REVIEWED IN FEBRUARY 2020.</p>
 
 
         </div>
         
-        <div id="cont5" style="display: none; padding:5%; text-align: justify;">
-            <p class="heading">DATA SUBJECT ACCESS REQUEST POLICY</p>
+<div id="cont5" class="displayDiv">
+    <p class="heading">DATA SUBJECT ACCESS REQUEST POLICY</p>
  
 <p class="subHead"> About this Policy: scope, purpose and users</p>
 
-o	This procedure sets out the key features regarding handling or responding to requests for access to personal data made by data subjects, their representatives or other interested parties. This procedure will enable Standard Union Securities Limited (further: “Company”) to comply with legal obligations, provide better customer care, improve transparency, enable individuals to verify that information held about them is accurate, and increase the level of trust by being open with individuals about the information that is held about them.
-o	This procedure applies broadly across all entities or subsidiaries owned or operated by the Company but does not affect any state or local laws or regulations which may otherwise be applicable.
-o	This procedure applies to employees that handle data subject access requests such as the Data Protection Officer.
+<p>This procedure sets out the key features regarding handling or responding to requests for access to personal data made by data subjects, their representatives or other interested parties. This procedure will enable Standard Union Securities Limited (further: “Company”) to comply with legal obligations, provide better customer care, improve transparency, enable individuals to verify that information held about them is accurate, and increase the level of trust by being open with individuals about the information that is held about them.</p>
+<p>This procedure applies broadly across all entities or subsidiaries owned or operated by the Company but does not affect any state or local laws or regulations which may otherwise be applicable.</p>
+	
+<p>This procedure applies to employees that handle data subject access requests such as the Data Protection Officer.</p>
  
+<br />
+
 <p class="subHead">Data Subject Access Request (DSAR)</p>
-o	A Data Subject Access Request (DSAR) is any request made by an individual or an individual’s legal representative for information held by the Company about that individual. The Data Subject Access Request provides the right for data subjects to see or view their own personal data as well as to request copies of the data.
-o	A Data Subject Access Request must be made in writing. In general, verbal requests for information held about an individual are not valid DSARs.
-o	A Data Subject Access Request can be made via any of the following methods: email or post. DSARs made on-line must be treated like any other Data Subject Access Requests when they are received, though the Company will not provide personal information via social media channels.
- 
+<p>	A Data Subject Access Request (DSAR) is any request made by an individual or an individual’s legal representative for information held by the Company about that individual. The Data Subject Access Request provides the right for data subjects to see or view their own personal data as well as to request copies of the data.</p>
+<p>	A Data Subject Access Request must be made in writing. In general, verbal requests for information held about an individual are not valid DSARs.</p>
+<p>	A Data Subject Access Request can be made via any of the following methods: email or post. DSARs made on-line must be treated like any other Data Subject Access Requests when they are received, though the Company will not provide personal information via social media channels.</p>
+
+<br />
+
 <p class="subHead">	The Rights of a Data Subject</p>
-The rights to data subject access include the following:
-•	Know whether a data controller holds any personal data about them.
-•	Receive a description of the data held about them and, if permissible and practical, a copy of the data.
-•	Be informed of the purpose(s) for which that data is being processed, and from where it was received.
-•	Be informed whether the information is being disclosed to anyone apart from the original recipient of the data; and if so, the identity of those recipients.
-•	The right of data portability. Data subjects can ask that their personal data be transferred to them or a third party in machine readable format (Word, PDF, etc.). However, such requests can only be fulfilled if the data in question is: 1) provided by the data subject to the Company, 2) is processed automatically and 3) is processed based on consent or fulfilment of a contract.
-•	If the data is being used to make automated decisions about the data subject, to be told what logic the system uses to make those decisions and to be able to request human intervention. The Company must provide a response to data subjects requesting access to their data within 30 calendar days of receiving the Data Subject Access Request unless local legislation dictates otherwise.
+<p>The rights to data subject access include the following:</p>
+
+<ul>
+    <li>Know whether a data controller holds any personal data about them.</li>
+    <li>Receive a description of the data held about them and, if permissible and practical, a copy of the data.</li>
+    <li>Be informed of the purpose(s) for which that data is being processed, and from where it was received.</li>
+    <li>Be informed whether the information is being disclosed to anyone apart from the original recipient of the data; and if so, the identity of those recipients.</li>
+    <li>The right of data portability. Data subjects can ask that their personal data be transferred to them or a third party in machine readable format (Word, PDF, etc.). However, such requests can only be fulfilled if the data in question is: 1) provided by the data subject to the Company, 2) is processed automatically and 3) is processed based on consent or fulfilment of a contract.</li>
+    <li>If the data is being used to make automated decisions about the data subject, to be told what logic the system uses to make those decisions and to be able to request human intervention. The Company must provide a response to data subjects requesting access to their data within 30 calendar days of receiving the Data Subject Access Request unless local legislation dictates otherwise.</li>
+</ul>
 
 
 <p class="subHead">	Requirements for a valid DSAR</p>
-o	In order to be able to respond to the Data Subject Access Requests in a timely manner, the data subject should:
-	Submit his/her request using a Data Subject Access Request Form.
-	Provide the Company with sufficient information to validate his/her identity (to ensure that the person requesting the information is the data subject or his/her authorized person).
-o	Subject to the exemptions referred to in this document, the Company will provide information to data subjects whose requests are in writing (or by some other method explicitly permitted by the local law), and are received from an individual whose identity can be validated by Company.
-o	However, Company will not provide data where the resources required to identify and retrieve it would be excessively difficult or time-consuming. Requests are more likely to be successful where they are specific and targeted at particular information.
-o	Factors that can assist in narrowing the scope of a search include identifying the likely holder of the information (e.g. by making reference to a specific department), the time period in which the information was generated or processed (the narrower the time frame, the more likely a request is to succeed) and being specific about the nature of the data sought (e.g. a copy of a particular form or email records from within a particular department).
+<p>	In order to be able to respond to the Data Subject Access Requests in a timely manner, the data subject should:</p>
+<ul>
+    <li>Submit his/her request using a Data Subject Access Request Form.</li>
+    <li>Provide the Company with sufficient information to validate his/her identity (to ensure that the person requesting the information is the data subject or his/her authorized person).</li>
+    <li></li>
+</ul>
+<p>Subject to the exemptions referred to in this document, the Company will provide information to data subjects whose requests are in writing (or by some other method explicitly permitted by the local law), and are received from an individual whose identity can be validated by Company.</p>
+
+<p>However, Company will not provide data where the resources required to identify and retrieve it would be excessively difficult or time-consuming. Requests are more likely to be successful where they are specific and targeted at particular information.</p>
+<p>Factors that can assist in narrowing the scope of a search include identifying the likely holder of the information (e.g. by making reference to a specific department), the time period in which the information was generated or processed (the narrower the time frame, the more likely a request is to succeed) and being specific about the nature of the data sought (e.g. a copy of a particular form or email records from within a particular department).</p>
  
+<br />
+
 <p class="subHead">	DSAR process</p>
 <p class="subHead">	Request</p>
-Upon receipt of a DSAR, the Data Protection Team will log and acknowledge the request. The requestor may be asked to complete a Data Subject Access Request Form to better enable the Company to locate the relevant information.
-<p class="subHead">	Identify verification</p>
-The Data Protection Team needs to check the identity of anyone making a DSAR to ensure information is only given to the person who is entitled to it. If the identity of a DSAR requestor has not already been provided, the person receiving the request will ask the requestor to provide two forms of identification, one of which must be a photo identity and the other confirmation of address.
-If the requestor is not the data subject, written confirmation that the requestor is authorized to act on behalf of the data subject is required.
-<p class="subHead">	Information for DSAR</p>
-Upon receipt of the required documents, the person receiving the request will provide the Data Protection Team with all relevant information in support of the DSAR. Where the Data Protection Team is reasonably satisfied with the information presented by the person who received the request, the Data Protection Officer will notify the requestor that his/her DSAR will be responded to within 30 calendar days. The 30 day period begins from the date that the required documents are received. The requestor will be informed by the Data Protection Team in writing if there will be any deviation from the 30 day time-frame due to other intervening events.
-<p class="subHead">	Review of Information</p>
-The Data Protection Team composed of cross department representative will collate the relevant and required information as requested in the DSAR.
-The Data Protection Team must ensure that the information is reviewed/received by the imposed deadline to ensure the 30 calendar day time-frame is not breached. The Data Protection Officer will ask the relevant department to complete a “Data Subject Disclosure Form” to document compliance with the 30 day requirement.
 
+<p>Upon receipt of a DSAR, the Data Protection Team will log and acknowledge the request. The requestor may be asked to complete a Data Subject Access Request Form to better enable the Company to locate the relevant information.</p>
+
+<p class="subHead">	Identify verification</p>
+<p>The Data Protection Team needs to check the identity of anyone making a DSAR to ensure information is only given to the person who is entitled to it. If the identity of a DSAR requestor has not already been provided, the person receiving the request will ask the requestor to provide two forms of identification, one of which must be a photo identity and the other confirmation of address.
+If the requestor is not the data subject, written confirmation that the requestor is authorized to act on behalf of the data subject is required.</p>
+
+<br />
+
+<p class="subHead">	Information for DSAR</p>
+<p>Upon receipt of the required documents, the person receiving the request will provide the Data Protection Team with all relevant information in support of the DSAR. Where the Data Protection Team is reasonably satisfied with the information presented by the person who received the request, the Data Protection Officer will notify the requestor that his/her DSAR will be responded to within 30 calendar days. The 30 day period begins from the date that the required documents are received. The requestor will be informed by the Data Protection Team in writing if there will be any deviation from the 30 day time-frame due to other intervening events.</p>
+
+<br />
+<p class="subHead">	Review of Information</p>
+<p>The Data Protection Team composed of cross department representative will collate the relevant and required information as requested in the DSAR.
+The Data Protection Team must ensure that the information is reviewed/received by the imposed deadline to ensure the 30 calendar day time-frame is not breached. The Data Protection Officer will ask the relevant department to complete a “Data Subject Disclosure Form” to document compliance with the 30 day requirement.
+</p>
+
+<br />
 <p class="subHead">	Response to access requests</p>
-The Data Protection Team will provide the finalized response together with the information retrieved and/or a statement that the Company does not hold the information requested, or that an exemption applies.
+<p>The Data Protection Team will provide the finalized response together with the information retrieved and/or a statement that the Company does not hold the information requested, or that an exemption applies.
 The Data Protection Team will ensure that a written response will be sent back to the requestor. This will be via email, unless the requestor has specified another method by which they wish to receive the response (e.g. post).
 The Company will only provide information via channels that are secure. When hard copies of information are posted, they will be sealed securely and sent by recorded delivery.
+</p>
+
+<br />
 
 <p class="subHead">	Archiving</p>
-After the response has been sent to the requestor, the DSAR will be considered closed and archived by the Data Protection Team.
- 
+<p>After the response has been sent to the requestor, the DSAR will be considered closed and archived by the Data Protection Team.</p>
+
+<br /> 
 <p class="subHead">	Exemptions</p>
-o	An individual does not have the right to access information recorded about someone else, unless they are an authorized representative.
- 
-•	The Company is not required to respond to requests for information unless it is provided with sufficient details to enable the location of the information to be identified, and to satisfy itself as to the identity of the data subject making the request.
- 
-•	In principle, the Company will not normally disclose the following types of information in response to a Data Subject Access Request:
- 
-•	Information about other people – A Data Subject Access Request may cover information which relates to an individual or individuals other than the data subject. Access to such data will not be granted, unless the individuals involved consent to the disclosure of their data.
-•	Repeat requests – Where a similar or identical request in relation to the same data subject has previously been complied with within a reasonable time period, and where there is no significant change in personal data held in relation to that data subject, any further request made within a six month period of the original request will be considered a repeat request, and the Company will not normally provide a further copy of the same data
-•	Publicly available information – The Company is not required to provide copies of documents which are already in the public domain.
-•	Opinions given in confidence or protected by copyright law – The Company does not have to disclose personal data held in relation to a data subject that is in the form of an opinion given in confidence or protected by copyright law.
- 
- 
+
+<p>	An individual does not have the right to access information recorded about someone else, unless they are an authorized representative.</p>
+
+<ul>
+    <li>The Company is not required to respond to requests for information unless it is provided with sufficient details to enable the location of the information to be identified, and to satisfy itself as to the identity of the data subject making the request.</li>
+    <li>In principle, the Company will not normally disclose the following types of information in response to a Data Subject Access Request:</li>
+    <li>Information about other people – A Data Subject Access Request may cover information which relates to an individual or individuals other than the data subject. Access to such data will not be granted, unless the individuals involved consent to the disclosure of their data.</li>
+    <li>Repeat requests – Where a similar or identical request in relation to the same data subject has previously been complied with within a reasonable time period, and where there is no significant change in personal data held in relation to that data subject, any further request made within a six month period of the original request will be considered a repeat request, and the Company will not normally provide a further copy of the same data</li>
+    <li>Publicly available information – The Company is not required to provide copies of documents which are already in the public domain.</li>
+    <li>Opinions given in confidence or protected by copyright law – The Company does not have to disclose personal data held in relation to a data subject that is in the form of an opinion given in confidence or protected by copyright law.</li>
+</ul>
+
+
+<br />
 
 
 <p class="subHead">	DSAR Refusals</p>
-There are situations where individuals do not have a right to see information relating to them. For instance:
-•	If the information is kept only for the purpose of statistics or research, and where the results of the statistical work or research are not made available in a form that identifies any of the individuals involved.
-•	Requests made for other, non-data protection purposes can be rejected.
-•	If the responsible person refuses a Data Subject Access Request on behalf of the Company, the reasons for the rejection must be clearly set out in writing. Any individual dissatisfied with the outcome of his/her Data Subject Access Request is entitled to make a request to the Data Protection Officer to review the outcome.
+<p>There are situations where individuals do not have a right to see information relating to them. For instance:</p>
+
+<ul>
+    <li>If the information is kept only for the purpose of statistics or research, and where the results of the statistical work or research are not made available in a form that identifies any of the individuals involved.</li>
+    <li>Requests made for other, non-data protection purposes can be rejected.</li>
+    <li>If the responsible person refuses a Data Subject Access Request on behalf of the Company, the reasons for the rejection must be clearly set out in writing. Any individual dissatisfied with the outcome of his/her Data Subject Access Request is entitled to make a request to the Data Protection Officer to review the outcome.</li>
+    <li></li>
+</ul>
+
+<br />
 
 <p class="subHead">	Responsibilities</p>
-o	The overall responsibility for ensuring compliance with a DSAR rests with the Data Protection Officer.
-o	If the Company acts as a data controller towards the data subject making the request then the DSAR will be addressed based on the provisions of this procedure.
-o	If the Company acts as a data processor the Data Protection Officer will forward the request to the appropriate data controller on whose behalf the Company processes personal data of the data subject making the request.
+<p>The overall responsibility for ensuring compliance with a DSAR rests with the Data Protection Officer.</p>
+
+<p>	If the Company acts as a data controller towards the data subject making the request then the DSAR will be addressed based on the provisions of this procedure.</p>
+
+<p>	If the Company acts as a data processor the Data Protection Officer will forward the request to the appropriate data controller on whose behalf the Company processes personal data of the data subject making the request.</p>
 
 
-THIS POLICY WAS REVIEWED IN FEBRUARY 2020
+<p>THIS POLICY WAS REVIEWED IN FEBRUARY 2020</p>
 
     </div>
  
-    <div id="cont6" style="display: none; padding:5%; text-align: justify;">
+    <div id="cont6" class="displayDiv">
         <div class="heading"> BUSINESS CONTINUITY PLAN</div>
-        Background
-The objective of Information Security, Business Continuity Management and Back-Up
+        <p class="subHead">Background</p>
+<p>The objective of Information Security, Business Continuity Management and Back-Up
 Arrangement (BCM) is to ensure the timely resumption and delivery of essential business
 activities in the event of service disruption by maintaining the key business resources required to
-support delivery of those activities. The primary aim of this policy is to create a plan for mitigating
-some of an organization’s risks.
-SOURCES OF DISRUPTION
-In the course of our business over the years, we have identified some common sources of service
-failure which includes:
-1. Internet failure :
-Since all our business operations are done online, internet has become a very critical
-factor in our day to day business operations. However, due to the peculiarities of our
-operating environment, the internet sometime fails resulting in our inability to carry out
-some of the required operations.
-2. System Failure:
-In some cases, software issues, or even hardware issues may affect our ability to attend
-to our clients. Some of these issues include Operating system crash, software failure or
-malfunctioning among others.
-3. Server failure from our OMS vendor:
-There is a possibility of system failure from our vendor even though not yet experienced;
-it is, however, considered a possibility. If this occurs, some parts of our business activities
-shall be disrupted.
-Business Continuity Plan, Standard Union Securities Limited. 2
-PLANS TO MITIGATE ABOVE IDENTIFIED THREAT
-1. Internet failure:
-In order to avoid service disruption as a result of internet failure, we shall always subscribe
-to the services of two or more internet service providers in order to enable us switch to
-whichever is working at the time of any particular failure. This implies that we shall have
-more than one 4g routers that we can switch the entire network to whenever there is a
-down time from any of the providers.
-2. System Failure:
-The IT department must be equipped with personnel that can attend to issues arising
-from computer hardware and software, in order to promptly fix the affected systems.
-3. Server failure from our OMS vendor:
-We shall always have a disaster recovery site (a separate environment not hosted on the
-same server with the main software applications) where we can move the last database
-backup into in order to continue business operations without delay. This must be
-discussed with our vendor Programos, in order to work out the best model to recover
-from which ever failure that may occur in this regard.
-PREPARED BY:MR. ANTHONY OLUSEYE OJEWALE
-APPROVED BY: Chairman, Board of Directors
-DATE: February 22, 2021
+support delivery of those activities. </p>
+
+<p>The primary aim of this policy is to create a plan for mitigating
+some of an organization’s risks.</p>
+
+<p class="subHead">SOURCES OF DISRUPTION</p>
+
+<p>In the course of our business over the years, we have identified some common sources of service
+failure which includes:</p>
+
+<ol>
+    <li><p class="subHead">Internet failure :</p>
+    <p>Since all our business operations are done online, internet has become a very critical
+        factor in our day to day business operations. However, due to the peculiarities of our
+        operating environment, the internet sometime fails resulting in our inability to carry out
+        some of the required operations.</p>
+    </li>
+
+    <li><p class="subHead">System Failure:</p>
+    <p>In some cases, software issues, or even hardware issues may affect our ability to attend
+        to our clients. Some of these issues include Operating system crash, software failure or
+        malfunctioning among others.</p>
+    </li>
+
+    <li><p class="subHead">Server failure from our OMS vendor:</p>
+    <p>There is a possibility of system failure from our vendor even though not yet experienced;
+        it is, however, considered a possibility. If this occurs, some parts of our business activities
+        shall be disrupted.
+        </p></li>
+</ol>
+
+
+<p>Business Continuity Plan, Standard Union Securities Limited.</p>
+<p>2 PLANS TO MITIGATE ABOVE IDENTIFIED THREAT</p>
+
+<ol>
+    <li><p class="subHead">Internet failure:</p>
+        <p>In order to avoid service disruption as a result of internet failure, we shall always subscribe
+            to the services of two or more internet service providers in order to enable us switch to
+            whichever is working at the time of any particular failure. This implies that we shall have
+            more than one 4g routers that we can switch the entire network to whenever there is a
+            down time from any of the providers.
+            </p>
+    </li>
+    <li><p class="subHead">System Failure:</p>
+    <p>The IT department must be equipped with personnel that can attend to issues arising
+        from computer hardware and software, in order to promptly fix the affected systems.
+        </p></li>
+    <li><p class="subHead">Server failure from our OMS vendor:</p>
+    <p>We shall always have a disaster recovery site (a separate environment not hosted on the
+        same server with the main software applications) where we can move the last database
+        backup into in order to continue business operations without delay. This must be
+        discussed with our vendor Programos, in order to work out the best model to recover
+        from which ever failure that may occur in this regard.
+        </p>
+    </li>
+</ol>
+
+
+
+<p>PREPARED BY:MR. ANTHONY OJEWALE</p>
+<p>APPROVED BY: Chairman, Board of Directors</p>
+<p>DATE: February 22, 2021</p>
     </div>
 </div>
     
